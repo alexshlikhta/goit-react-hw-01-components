@@ -1,0 +1,31 @@
+.transaction {
+  margin-top: 60px;
+
+  &__history {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    & thead {
+      &:before {
+        height: 1em;
+        display: table-row;
+        content: '';
+      }
+    }
+
+    & tbody {
+      & tr {
+        &:nth-child(even) {
+          background-color: #ddd;
+        }
+      }
+
+      & td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+    }
+  }
+}

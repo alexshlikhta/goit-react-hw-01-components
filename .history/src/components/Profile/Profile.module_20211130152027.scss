@@ -1,0 +1,43 @@
+.profile {
+  &__description {
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    & img {
+      max-width: 100px;
+      margin-top: 50px;
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      border: solid 1px black;
+    }
+  }
+
+  &__name {
+    margin: 25px 0 0 0;
+    font-weight: bold;
+  }
+
+  &__tag {
+    margin: 15px 0 0 0;
+    color: rgb(196, 193, 193);
+  }
+
+  &__location {
+    margin: 5px 0 50px 0;
+    color: rgb(196, 193, 193);
+  }
+
+  &__stats {
+  }
+
+  &__label {
+  }
+
+  &__ {
+  }
+}

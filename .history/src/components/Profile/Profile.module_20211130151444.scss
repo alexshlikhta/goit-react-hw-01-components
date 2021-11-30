@@ -1,0 +1,39 @@
+.profile {
+  &__description {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+
+    & img {
+      max-width: 80%;
+      width: 100%;
+      height: auto;
+      margin: 15px;
+      border-radius: 50%;
+      border: solid 1px black;
+    }
+
+    & p {
+      margin: 15px 0 0 0;
+    }
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__tag {
+  }
+
+  &__location {
+  }
+
+  &__stats {
+  }
+
+  &__label {
+  }
+
+  &__ {
+  }
+}

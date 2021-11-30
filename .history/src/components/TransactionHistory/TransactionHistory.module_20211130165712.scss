@@ -1,0 +1,12 @@
+.transaction {
+  margin-top: 30px;
+
+  &__history {
+    width: 100%;
+
+    & tr {
+      display: inline-block;
+      padding-top: 15px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.transaction {
+  margin-top: 30px;
+
+  &__history {
+    width: 100%;
+    text-align: center;
+
+    & tbody {
+      padding-top: 15px;
+    }
+
+    & tr {
+      padding-top: 15px;
+    }
+  }
+}

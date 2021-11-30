@@ -1,0 +1,78 @@
+.profile {
+  border-radius: 5px;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: white;
+  transition: all ease-out 0.3s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 6px;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  &__description {
+    padding: 15px;
+
+    & img {
+      max-width: 100px;
+      margin-top: 50px;
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      border: solid 1px black;
+    }
+  }
+
+  &__name {
+    font-size: 18px;
+    margin: 25px 0 0 0;
+    font-weight: bold;
+  }
+
+  &__tag {
+    margin: 10px 0 0 0;
+    color: rgb(196, 193, 193);
+  }
+
+  &__location {
+    margin: 5px 0 50px 0;
+    color: rgb(196, 193, 193);
+  }
+
+  &__stats {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(231, 244, 255);
+
+    & li {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      border-top: solid 1px rgb(218, 218, 218);
+      border-right: solid 1px rgb(218, 218, 218);
+      flex: 33.33%;
+
+      &:last-of-type {
+        border-right: none;
+      }
+    }
+  }
+
+  &__label {
+    color: rgb(165, 165, 165);
+  }
+
+  &__quantity {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+}

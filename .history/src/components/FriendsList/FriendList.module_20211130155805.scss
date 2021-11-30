@@ -1,0 +1,18 @@
+.friends {
+  margin-top: 30px;
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    box-shadow: rgb(149 157 165 / 20%) 0px 2px 6px;
+  }
+
+  &__avatar {
+  }
+
+  &__name {
+  }
+}
