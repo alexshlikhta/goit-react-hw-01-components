@@ -22,5 +22,4 @@ export default function Statistic({ title, stats }) {
 
 Statistic.propTypes = {
   data: PropTypes.array,
-  title: PropTypes.string,
 };

@@ -4,7 +4,7 @@ import s from './Statistic.module.scss';
 export default function Statistic({ title, stats }) {
   return (
     <div className={s.statistics}>
-      {title && <h2 className={s.statistics__title}>{title}</h2>}
+      {title && < h2 className={s.statistics__title}>{title}</>}
 
       <ul className={s.statistics__list}>
         {stats.map(item => {
@@ -22,5 +22,4 @@ export default function Statistic({ title, stats }) {
 
 Statistic.propTypes = {
   data: PropTypes.array,
-  title: PropTypes.string,
 };
